@@ -153,15 +153,15 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Delivery</label>
     <nameField>
         <displayFormat>D-{00000000}</displayFormat>
-        <label>Delivery Phase</label>
+        <label>Delivery Stage Item</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Deliveries</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

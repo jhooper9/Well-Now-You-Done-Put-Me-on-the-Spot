@@ -31,6 +31,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Delivery__c.Delivery_Details__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Package__c.Account__c</field>
         <readable>true</readable>
@@ -58,6 +63,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Package__c.Route__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Package__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
