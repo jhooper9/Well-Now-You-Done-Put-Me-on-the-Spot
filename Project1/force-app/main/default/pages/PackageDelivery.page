@@ -1,0 +1,23 @@
+<apex:page controller="PackageDeliveryController">
+    <apex:form >
+        <apex:pageBlock title="Mode">
+            <apex:pageBlockSection >
+                <apex:actionRegion >
+                    <apex:selectList multiselect="false" size="1" value="{!filterChoice}">
+                        <apex:selectOptions value="{!possibleStates}"/>
+                        <apex:actionSupport event="onchange" reRender="package_list"/>
+                    </apex:selectList>
+                </apex:actionRegion>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Packages List" id="package_list">
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!packages}" var="pkg">
+                    <apex:column value="{!pkg.Name}"/>
+                    <apex:column value="{!pkg.Status__c}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -134,6 +134,10 @@
         <object>Route__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>PackageDelivery</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <userPermissions>
         <enabled>true</enabled>

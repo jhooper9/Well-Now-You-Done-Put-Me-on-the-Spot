@@ -80,6 +80,10 @@
         <field>Route__c.Driver__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <pageAccesses>
+        <apexPage>PackageDelivery</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <userLicense>XOrg Proxy User</userLicense>
     <userPermissions>
         <enabled>true</enabled>
