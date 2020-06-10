@@ -46,6 +46,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Package__c.Approval_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Package__c.Contact__c</field>
         <readable>true</readable>
@@ -53,6 +58,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Package__c.Destination_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Insurance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Package_value__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
