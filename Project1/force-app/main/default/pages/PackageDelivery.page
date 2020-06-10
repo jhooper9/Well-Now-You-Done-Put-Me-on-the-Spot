@@ -1,4 +1,4 @@
-<apex:page controller="PackageDeliveryController">
+<apex:page standardController="Package__c" extensions="PackageControllerExtension">
     <apex:form >
         <apex:pageBlock title="Mode">
             <apex:pageBlockSection >
