@@ -40,6 +40,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Community</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>Flow</name>
 	</types>
 	<types>
@@ -57,6 +61,26 @@
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Document</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Network</name>
 	</types>
 	<version>48.0</version>
 </Package>
