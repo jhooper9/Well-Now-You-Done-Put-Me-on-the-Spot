@@ -33,6 +33,14 @@
 		<name>Community</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>CommunityTemplateDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CommunityThemeDefinition</name>
+	</types>
+	<types>
 		<members>Address__c</members>
 		<members>Case</members>
 		<members>Delivery__c</members>
@@ -50,6 +58,10 @@
 	<types>
 		<members>*</members>
 		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExperienceBundle</name>
 	</types>
 	<types>
 		<members>*</members>
