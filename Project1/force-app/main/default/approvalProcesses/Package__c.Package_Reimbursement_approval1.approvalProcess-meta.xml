@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
-    <active>true</active>
+    <active>false</active>
     <allowRecall>true</allowRecall>
     <allowedSubmitters>
         <type>owner</type>
@@ -19,32 +19,50 @@
         <allowDelegate>false</allowDelegate>
         <assignedApprover>
             <approver>
-                <name>Owner</name>
-                <type>relatedUserField</type>
+                <name>Approval_queue_step1</name>
+                <type>queue</type>
             </approver>
             <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Package__c.Package_value__c</field>
+                <operation>greaterThan</operation>
+                <value>$150</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Package__c.Package_value__c</field>
+                <operation>lessOrEqual</operation>
+                <value>$2000</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
         <label>Step 1</label>
         <name>Step_1</name>
     </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approval_queue_step2</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Package__c.Package_value__c</field>
+                <operation>greaterThan</operation>
+                <value>$2000</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>step 2</label>
+        <name>step_2</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
-    <entryCriteria>
-        <criteriaItems>
-            <field>Package__c.Status__c</field>
-            <operation>equals</operation>
-            <value>Missing</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Package__c.Insurance__c</field>
-            <operation>equals</operation>
-            <value>True</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Package__c.Package_value__c</field>
-            <operation>greaterThan</operation>
-            <value>$200</value>
-        </criteriaItems>
-    </entryCriteria>
     <finalApprovalActions>
         <action>
             <name>PRA_2</name>
@@ -65,7 +83,7 @@
             <type>FieldUpdate</type>
         </action>
     </initialSubmissionActions>
-    <label>Package Reimbursement approval</label>
+    <label>Package Reimbursement approval 1</label>
     <nextAutomatedApprover>
         <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
         <userHierarchyField>Manager</userHierarchyField>

@@ -16,8 +16,8 @@
     </rules>
     <tasks>
         <fullName>Welcome_new_Account_Holder</fullName>
-        <assignedTo>jef@jeffywo.com</assignedTo>
-        <assignedToType>user</assignedToType>
+        <assignedTo>Support_Manager</assignedTo>
+        <assignedToType>role</assignedToType>
         <description>Welcome new Holder</description>
         <dueDateOffset>2</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
