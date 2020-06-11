@@ -228,6 +228,29 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.SuppliedEmail</field>
+<<<<<<< HEAD
+=======
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SuppliedName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SuppliedPhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Delivery__c.Delivery_Details__c</field>
+>>>>>>> DameniqD
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

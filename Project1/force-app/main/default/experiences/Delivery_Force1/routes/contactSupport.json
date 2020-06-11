@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "d4540114-e866-4023-b1ef-359c2351a13a",
+  "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
+  "id" : "83e68258-3cf0-457a-9e0e-2fff6103679e",
+  "label" : "Contact Support",
+  "pageAccess" : "UseParent",
+  "routeType" : "contactsupport",
+  "type" : "route",
+  "urlPrefix" : "contactsupport"
+}

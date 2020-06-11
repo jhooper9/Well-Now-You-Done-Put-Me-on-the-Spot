@@ -241,11 +241,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+<<<<<<< HEAD
         <editable>false</editable>
         <field>Case.TrackingID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+=======
+>>>>>>> DameniqD
         <editable>true</editable>
         <field>Case.Type</field>
         <readable>true</readable>
@@ -397,10 +400,13 @@
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
+<<<<<<< HEAD
         <tab>Package__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+=======
+>>>>>>> DameniqD
         <tab>standard-Case</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

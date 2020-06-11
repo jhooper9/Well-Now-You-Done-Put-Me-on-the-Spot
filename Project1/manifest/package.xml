@@ -33,6 +33,17 @@
 		<name>Community</name>
 	</types>
 	<types>
+<<<<<<< HEAD
+=======
+		<members>*</members>
+		<name>CommunityTemplateDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CommunityThemeDefinition</name>
+	</types>
+	<types>
+>>>>>>> DameniqD
 		<members>Address__c</members>
 		<members>Case</members>
 		<members>Delivery__c</members>
@@ -58,6 +69,10 @@
 	<types>
 		<members>*</members>
 		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NavigationMenu</name>
 	</types>
 	<types>
 		<members>*</members>

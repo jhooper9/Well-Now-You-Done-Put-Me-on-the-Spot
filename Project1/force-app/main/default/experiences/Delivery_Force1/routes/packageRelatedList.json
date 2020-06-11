@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "14972d69-5363-4f1c-a447-f8b64f788b3f",
+  "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
+  "id" : "d0e5c505-4fd8-4f34-9c73-f535ae66ea61",
+  "label" : "Package Related List",
+  "objectApiName" : "Package__c",
+  "routeType" : "relatedlist-a03",
+  "type" : "route",
+  "urlPrefix" : "package"
+}
