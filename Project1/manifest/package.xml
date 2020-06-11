@@ -22,10 +22,19 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>ApprovalProcess</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>Community</name>
+	</types>
+	<types>
 		<members>Address__c</members>
+		<members>Case</members>
 		<members>Delivery__c</members>
 		<members>Incident__c</members>
 		<members>Inhabitant__c</members>
@@ -36,28 +45,7 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Community</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Flow</name>
-	</types>
-
-	<types>
-		<members>*</members>
-		<name>LightningComponentBundle</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Profile</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>StaticResource</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Document</name>
+		<name>CustomSite</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -65,15 +53,35 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>SiteDotCom</name>
+		<name>Flow</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>CustomSite</name>
+		<name>LightningComponentBundle</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Network</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Workflow</name>
+	</types>
+	<types>
+		<members>Delivery Force</members>
+		<name>Package</name>
 	</types>
 	<version>48.0</version>
 </Package>
