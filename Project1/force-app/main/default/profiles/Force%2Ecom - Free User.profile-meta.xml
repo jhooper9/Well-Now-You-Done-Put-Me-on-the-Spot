@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
+        <apexClass>AccountLookupController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PackageDeliveryController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -80,6 +84,10 @@
         <field>Route__c.Driver__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <pageAccesses>
+        <apexPage>FindAccountInformation</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <userLicense>Force.com - Free</userLicense>
     <userPermissions>
         <enabled>true</enabled>
