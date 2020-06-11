@@ -1,0 +1,13 @@
+<apex:page standardController="Case" extensions="CreateTicketControllerExt">
+<apex:pageBlock title="New Support Request">
+    <apex:form >
+        <apex:pageBlockSection columns="1">
+            <apex:inputField value="{! Case.Subject }"/>
+            <apex:inputField value="{! Case.Description }"/>
+            <apex:inputField value="{! Case.TrackingID__c }"/>
+            <!--<apex:inputField value="{! Case.Origin }"/>-->
+            <apex:commandButton action="{! saveCase }" value="Save" />
+        </apex:pageBlockSection>
+    </apex:form>
+</apex:pageBlock>
+</apex:page>
