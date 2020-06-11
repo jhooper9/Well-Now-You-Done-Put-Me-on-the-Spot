@@ -29,7 +29,12 @@
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>Community</name>
+	</types>
+	<types>
 		<members>Address__c</members>
+		<members>Case</members>
 		<members>Delivery__c</members>
 		<members>Incident__c</members>
 		<members>Inhabitant__c</members>
@@ -40,7 +45,11 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Community</name>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -52,7 +61,15 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Network</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>Profile</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SiteDotCom</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -61,26 +78,6 @@
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Document</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>CustomTab</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>SiteDotCom</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>CustomSite</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Network</name>
 	</types>
 	<version>48.0</version>
 </Package>
