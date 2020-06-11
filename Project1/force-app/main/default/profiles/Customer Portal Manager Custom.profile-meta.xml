@@ -143,8 +143,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.BusinessHoursId</field>
-<<<<<<< HEAD
-=======
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -250,7 +248,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Delivery__c.Delivery_Details__c</field>
->>>>>>> DameniqD
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -133,8 +133,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.AccountId</field>
-<<<<<<< HEAD
-=======
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -250,7 +248,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Delivery__c.Delivery_Details__c</field>
->>>>>>> DameniqD
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

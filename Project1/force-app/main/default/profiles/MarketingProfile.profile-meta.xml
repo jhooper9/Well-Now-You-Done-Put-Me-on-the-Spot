@@ -516,13 +516,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
-<<<<<<< HEAD
         <tab>Package__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-=======
->>>>>>> DameniqD
         <tab>standard-Case</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
