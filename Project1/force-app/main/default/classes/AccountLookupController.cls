@@ -33,7 +33,8 @@ public class AccountLookupController {
         {
         	return null;
         }
-         templist = [FIND :name IN Name Fields RETURNING Account(id, Name, OwnerId) ];
+         templist = [FIND :name IN Name Fields RETURNING Account(id, Name, OwnerId, Industry, Website, Phone) ];
+        
         for(integer i =0; i < templist.Size(); i++)
         {
 			for(integer j = 0; j < templist[i].Size(); j++)
@@ -65,10 +66,10 @@ public class AccountLookupController {
     }
 
 
- Public pagereference checkforboxes()
+ Public pagereference Updateaccounts()
  {
      
-     
+     update acc;
      return null;
  }
     

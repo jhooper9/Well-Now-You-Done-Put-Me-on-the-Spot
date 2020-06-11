@@ -1,4 +1,6 @@
 <apex:page controller="AccountLookupController" title="Account Lookup">
+    
+    <br></br>
     {!$User.FirstName} {!$User.LastName}    
    <apex:form >
 
@@ -41,15 +43,7 @@
                     </apex:column>
                     
 
- 					<apex:column >
-
-                        <apex:facet name="header">Edit</apex:facet>
-
-                       <apex:inputCheckbox onchange="oneCheckbox(this);" label="Edit" />
-
-
-
-                    </apex:column>
+ 					
 
                   
 
@@ -59,8 +53,8 @@
 
         </apex:pageBlock>
        	<apex:pageBlock >
-       Account Update
-           <apex:commandButton value="Display" action="{!checkforboxes}" reRender="Account-Update" />
+       Account Update  <br></br>
+           <apex:commandButton value="Edit" action="{!SearchAccounts}" reRender="Account-Update" />
             
             <apex:pageBlockSection id="Account-Update" columns="5">
              <apex:pageBlockTable value="{!acc}" var="a">
@@ -69,29 +63,38 @@
 
                         <apex:facet name="header">Name</apex:facet>
 
-                        {!a.Name}
+                        <apex:inputfield value="{!a.name}" label="Name"  />                    
 
                     </apex:column>
                     
 
  					<apex:column >
-
-                        <apex:facet name="header">Edit</apex:facet>
-
-                       <apex:inputCheckbox onchange="oneCheckbox(this);" label="Edit" />
-
-
-
-                    </apex:column>
-
-                  
+						
+                        <apex:facet name="header"> Phone</apex:facet>
+						 <apex:inputfield value="{!a.Phone}" label="Name"  />
+                       
+					</apex:column>
+					<apex:column >
+						
+                        <apex:facet name="header"> Website</apex:facet>
+						<apex:inputfield value="{!a.Website}" label="Name"  />
+                       
+					</apex:column>
+                  	<apex:column >
+						
+                        <apex:facet name="header"> Industry</apex:facet>
+						 <apex:inputfield value="{!a.Industry}" label="Name"  />
+                       
+					</apex:column>
+                 
+                 
 
                 </apex:pageBlockTable>   
                 
                 
            </apex:pageBlockSection>    
             
-       
+       <apex:commandButton value="Submit Changes" action="{!Updateaccounts}" reRender="Account-Update" />
        </apex:pageBlock>
 
     </apex:form>
