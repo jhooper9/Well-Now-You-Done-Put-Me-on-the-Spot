@@ -33,8 +33,15 @@
 		<name>Community</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>CommunityTemplateDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CommunityThemeDefinition</name>
+	</types>
+	<types>
 		<members>Address__c</members>
-		<members>Case</members>
 		<members>Delivery__c</members>
 		<members>Incident__c</members>
 		<members>Inhabitant__c</members>
@@ -61,6 +68,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>NavigationMenu</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>Network</name>
 	</types>
 	<types>
@@ -69,19 +80,15 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>StaticResource</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
-	</types>
-	<types>
-		<members>Delivery Force</members>
-		<name>Package</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>ExperienceBundle</name>
 	</types>
 	<version>48.0</version>
 </Package>

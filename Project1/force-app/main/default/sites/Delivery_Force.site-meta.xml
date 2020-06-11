@@ -23,8 +23,8 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>dameniq12@wise-fox-ckppsi.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>dameniq12@wise-fox-ckppsi.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>dameniq12@resilient-wolf-h7gmne.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>dameniq12@resilient-wolf-h7gmne.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>forcefulforcedelivery-developer-edition</subdomain>
     <urlPathPrefix>deliveryforce</urlPathPrefix>
