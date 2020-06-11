@@ -41,6 +41,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CreateTicketControllerExt</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -133,27 +137,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Package__c.Account__c</field>
-        <readable>false</readable>
+        <field>Package__c.Approval_Status__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Package__c.Addressor__c</field>
+        <field>Package__c.Destination__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Package__c.Contact__c</field>
-        <readable>false</readable>
+        <editable>true</editable>
+        <field>Package__c.Insurance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Package_value__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Package__c.Destination_Address__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Package__c.Return_Address__c</field>
+        <field>Package__c.Return__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -206,6 +210,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CreateTicket</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -268,5 +276,9 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>Package__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userLicense>Guest</userLicense>
 </Profile>

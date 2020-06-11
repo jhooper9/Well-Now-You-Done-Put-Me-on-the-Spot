@@ -23,9 +23,9 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>dameniq12@wise-fox-ckppsi.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>dameniq12@wise-fox-ckppsi.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>ajamesmiller35@brave-goat-7uhpd4.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>ajamesmiller35@brave-goat-7uhpd4.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>forcefulforcedelivery-developer-edition</subdomain>
+    <subdomain>delivery-force-developer-edition</subdomain>
     <urlPathPrefix>deliveryforce</urlPathPrefix>
 </CustomSite>
