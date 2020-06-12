@@ -266,11 +266,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Package__c.Account__c</field>
-<<<<<<< HEAD
         <readable>false</readable>
-=======
-        <readable>true</readable>
->>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
