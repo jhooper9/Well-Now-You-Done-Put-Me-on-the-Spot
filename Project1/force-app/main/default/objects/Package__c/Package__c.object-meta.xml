@@ -156,8 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Package</label>
     <nameField>
-        <label>Package Name</label>
-        <type>Text</type>
+        <displayFormat>M-{00000000}</displayFormat>
+        <label>TrackingID</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Packages</pluralLabel>
     <searchLayouts/>

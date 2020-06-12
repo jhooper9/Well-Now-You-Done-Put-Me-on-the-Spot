@@ -156,8 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Address</label>
     <nameField>
-        <label>Address Name</label>
-        <type>Text</type>
+        <displayFormat>A-{0000000000}</displayFormat>
+        <label>Address ID</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Addresses</pluralLabel>
     <searchLayouts/>

@@ -1,0 +1,9 @@
+<apex:page docType="html-5.0" controller="getPackage">
+    <apex:pageBlock >
+        <apex:form >
+            <apex:pageMessages id="error"></apex:pageMessages>
+            <apex:input value="{! TrackingID }"/>
+            <apex:commandButton value="Search records" action="{!find}"/>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>
