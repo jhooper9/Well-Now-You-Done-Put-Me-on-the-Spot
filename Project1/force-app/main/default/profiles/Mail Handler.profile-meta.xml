@@ -268,9 +268,20 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+<<<<<<< HEAD
         <editable>false</editable>
         <field>Inhabitant__c.Inhabitant_Id__c</field>
         <readable>false</readable>
+=======
+        <editable>true</editable>
+        <field>Package__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Addressor__c</field>
+        <readable>true</readable>
+>>>>>>> 2b45bbf... Fixed merge conflicts
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -278,6 +289,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+<<<<<<< HEAD
+=======
+        <editable>true</editable>
+        <field>Package__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Destination_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+>>>>>>> 2b45bbf... Fixed merge conflicts
         <editable>true</editable>
         <field>Package__c.Destination__c</field>
         <readable>true</readable>
