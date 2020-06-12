@@ -81,13 +81,13 @@
 	</types>
 	<types>
 		<members>Admin</members>
-		<members>Customer_Service_Manager</members>
-		<members>Customer_Support_Representative</members>
+		<members>Customer Service Manager</members>
+		<members>Customer Support Representative</members>
 		<members>Customer</members>
-		<members>Delivery_Force_Profile</members>
+		<members>Delivery Force Profile</members>
 		<members>Driver</members>
 		<members>Guest</members>
-		<members>Mail_Handler</members>
+		<members>Mail Handler</members>
 		<members>Postmaster</members>
 		<name>Profile</name>
 	</types>
