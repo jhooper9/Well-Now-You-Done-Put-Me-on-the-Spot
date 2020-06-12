@@ -85,6 +85,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>PackageControllerExtension</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PackageDeliveryController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -395,6 +399,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>PackageDelivery</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

@@ -1,0 +1,18 @@
+<apex:page standardController="Package__c" extensions="PackageControllerExtension">
+    <apex:form >
+        <apex:pageBlock title="Packages List">
+            <apex:actionRegion >
+                <apex:selectList multiselect="false" size="1" value="{!filterChoice}">
+                    <apex:selectOptions value="{!possibleStates}"/>
+                    <apex:actionSupport event="onchange" reRender="package_list"/>
+                </apex:selectList>
+            </apex:actionRegion>
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!packages}" var="pkg" id="package_list">
+                    <apex:column value="{!pkg.Name}"/>
+                    <apex:column value="{!pkg.Status__c}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

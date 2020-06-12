@@ -85,6 +85,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>PackageControllerExtension</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PackageDeliveryController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -247,10 +251,29 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.TrackingID__c</field>
+<<<<<<< HEAD
+=======
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Delivery__c.Delivery_Details__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Account__c</field>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+<<<<<<< HEAD
         <field>Case.Type</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -271,10 +294,18 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+=======
+        <field>Package__c.Addressor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
         <field>Package__c.Approval_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+<<<<<<< HEAD
         <editable>false</editable>
         <field>Package__c.Contact__c</field>
         <readable>false</readable>
@@ -283,6 +314,16 @@
         <editable>false</editable>
         <field>Package__c.Destination_Address__c</field>
         <readable>false</readable>
+=======
+        <editable>true</editable>
+        <field>Package__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Destination_Address__c</field>
+        <readable>true</readable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -303,6 +344,11 @@
         <editable>false</editable>
         <field>Package__c.Return_Address__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Package__c.Return_Address__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -395,6 +441,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>PackageDelivery</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

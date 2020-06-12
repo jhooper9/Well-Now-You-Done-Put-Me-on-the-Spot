@@ -85,6 +85,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>PackageControllerExtension</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PackageDeliveryController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -262,12 +266,20 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Package__c.Account__c</field>
+<<<<<<< HEAD
         <readable>false</readable>
+=======
+        <readable>true</readable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Package__c.Addressor__c</field>
+<<<<<<< HEAD
         <readable>false</readable>
+=======
+        <readable>true</readable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -277,12 +289,20 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Package__c.Contact__c</field>
+<<<<<<< HEAD
         <readable>false</readable>
+=======
+        <readable>true</readable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Package__c.Destination_Address__c</field>
+<<<<<<< HEAD
         <readable>false</readable>
+=======
+        <readable>true</readable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -302,7 +322,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Package__c.Return_Address__c</field>
+<<<<<<< HEAD
         <readable>false</readable>
+=======
+        <readable>true</readable>
+>>>>>>> 8072dc98b2726afb76a8458343a7aef067b25c97
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -395,6 +419,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>PackageDelivery</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
