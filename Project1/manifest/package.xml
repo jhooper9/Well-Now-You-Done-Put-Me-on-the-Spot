@@ -80,7 +80,15 @@
 		<name>Network</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>Admin</members>
+		<members>Customer_Service_Manager</members>
+		<members>Customer_Support_Representative</members>
+		<members>Customer</members>
+		<members>Delivery_Force_Profile</members>
+		<members>Driver</members>
+		<members>Guest</members>
+		<members>Mail_Handler</members>
+		<members>Postmaster</members>
 		<name>Profile</name>
 	</types>
 	<types>
