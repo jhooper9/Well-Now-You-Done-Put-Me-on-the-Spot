@@ -1,4 +1,4 @@
-public class getPackage {
+public with sharing class getPackage {
     
     public String TrackingID {get;set;}
     
