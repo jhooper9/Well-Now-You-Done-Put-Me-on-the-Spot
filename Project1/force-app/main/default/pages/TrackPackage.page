@@ -1,9 +1,15 @@
 <apex:page docType="html-5.0" controller="getPackage">
-    <apex:pageBlock >
+    <apex:pageBlock title="Enter Tracking ID">
         <apex:form >
             <apex:pageMessages id="error"></apex:pageMessages>
             <apex:input value="{! TrackingID }"/>
             <apex:commandButton value="Search records" action="{!find}"/>
-        </apex:form>
+        </apex:form>        
+        <apex:pageBlockSection title="Results">
+            <apex:outputField value="{! pkg.Name }"/>
+            <apex:outputField value="{! pkg.Status__c }"/>
+            <apex:outputField value="{! ct.Name }"/>
+            <apex:outputField value="{! addr.Mailing_Address__c }"/>
+        </apex:pageBlockSection>
     </apex:pageBlock>
 </apex:page>

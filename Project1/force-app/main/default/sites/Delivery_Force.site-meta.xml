@@ -23,9 +23,9 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>jonathan.stew.hooper@wise-wolf-im0ta5.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>jonathan.stew.hooper@wise-wolf-im0ta5.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>ajamesmiller35@brave-goat-7uhpd4.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>ajamesmiller35@brave-goat-7uhpd4.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>brave-narwhal522p3d-developer-edition</subdomain>
+    <subdomain>delivery-force-developer-edition</subdomain>
     <urlPathPrefix>deliveryforce</urlPathPrefix>
 </CustomSite>
