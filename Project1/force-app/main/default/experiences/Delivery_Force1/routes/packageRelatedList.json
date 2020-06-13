@@ -4,7 +4,7 @@
   "id" : "d0e5c505-4fd8-4f34-9c73-f535ae66ea61",
   "label" : "Package Related List",
   "objectApiName" : "Package__c",
-  "routeType" : "relatedlist-a03",
+  "routeType" : "relatedlist-a04",
   "type" : "route",
   "urlPrefix" : "package"
 }

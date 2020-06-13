@@ -1,0 +1,102 @@
+<apex:page controller="AccountLookupController" title="Account Lookup">
+    
+    <br></br>
+    {!$User.FirstName} {!$User.LastName}    
+   <apex:form >
+
+        <apex:pageBlock >
+
+            
+
+ 
+
+            <apex:pageBlockSection id="Account-table" columns="2">
+
+                <apex:pageBlockSectionItem >
+
+                    <apex:outputLabel value="Name" />
+                    <apex:inputText value="{!name}" />
+                    
+
+                </apex:pageBlockSectionItem>
+
+ 
+                <apex:pageBlockSectionItem >
+
+                    <apex:commandButton value="Search" action="{!searchAccounts}" reRender="Account-table" />
+                    
+
+                </apex:pageBlockSectionItem>
+
+                
+
+ 
+
+                <apex:pageBlockTable value="{!acc}" var="a">
+
+                    <apex:column >
+
+                        <apex:facet name="header">Name</apex:facet>
+
+                        {!a.Name}
+
+                    </apex:column>
+                    
+
+                    
+
+                  
+
+                </apex:pageBlockTable>
+
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+        <apex:pageBlock >
+       Account Update  <br></br>
+           <apex:commandButton value="Edit" action="{!SearchAccounts}" reRender="Account-Update" />
+            
+            <apex:pageBlockSection id="Account-Update" columns="5">
+             <apex:pageBlockTable value="{!acc}" var="a">
+
+                    <apex:column >
+
+                        <apex:facet name="header">Name</apex:facet>
+
+                        <apex:inputfield value="{!a.name}" label="Name"  />                    
+
+                    </apex:column>
+                    
+
+                    <apex:column >
+                        
+                        <apex:facet name="header"> Phone</apex:facet>
+                         <apex:inputfield value="{!a.Phone}" label="Name"  />
+                       
+                    </apex:column>
+                    <apex:column >
+                        
+                        <apex:facet name="header"> Website</apex:facet>
+                        <apex:inputfield value="{!a.Website}" label="Name"  />
+                       
+                    </apex:column>
+                    <apex:column >
+                        
+                        <apex:facet name="header"> Industry</apex:facet>
+                         <apex:inputfield value="{!a.Industry}" label="Name"  />
+                       
+                    </apex:column>
+                 
+                 
+
+                </apex:pageBlockTable>   
+                
+                
+           </apex:pageBlockSection>    
+            
+       <apex:commandButton value="Submit Changes" action="{!Updateaccounts}" reRender="Account-Update" />
+       </apex:pageBlock>
+
+    </apex:form>
+
+</apex:page>
