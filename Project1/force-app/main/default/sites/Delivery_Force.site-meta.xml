@@ -23,9 +23,9 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>ajamesmiller35@brave-goat-7uhpd4.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>ajamesmiller35@brave-goat-7uhpd4.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>thejoey46@brave-narwhal-522p3d.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>thejoey46@brave-narwhal-522p3d.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>forcefuldelivery-developer-edition</subdomain>
+    <subdomain>brave-narwhal522p3d-developer-edition</subdomain>
     <urlPathPrefix>deliveryforce</urlPathPrefix>
 </CustomSite>

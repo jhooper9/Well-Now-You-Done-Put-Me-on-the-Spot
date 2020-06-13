@@ -4,7 +4,7 @@
   "id" : "b8179f16-a032-408c-b862-24e5ee6e9e13",
   "label" : "Package List",
   "objectApiName" : "Package__c",
-  "routeType" : "list-a03",
+  "routeType" : "list-a04",
   "type" : "route",
   "urlPrefix" : "package"
 }
