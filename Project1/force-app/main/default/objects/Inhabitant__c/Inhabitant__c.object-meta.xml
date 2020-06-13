@@ -156,9 +156,8 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Inhabitant</label>
     <nameField>
-        <displayFormat>D-{00000000}</displayFormat>
         <label>DestinationID</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Inhabitants</pluralLabel>
     <searchLayouts/>
