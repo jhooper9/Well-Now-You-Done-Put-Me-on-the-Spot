@@ -1,4 +1,4 @@
-<apex:page docType="html-5.0" controller="getPackage">
+<apex:page docType="html-5.0" standardController="Package__c" extensions="getPackage">
     <apex:pageBlock title="Enter Tracking ID">
         <apex:form >
             <apex:pageMessages id="error"></apex:pageMessages>
@@ -10,6 +10,9 @@
             <apex:outputField value="{! pkg.Status__c }"/>
             <apex:outputField value="{! ct.Name }"/>
             <apex:outputField value="{! addr.Mailing_Address__c }"/>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Tracking History">
+        	<apex:relatedList subject="{! pkg.Id }" list="Delivery_Stages__r"/>
         </apex:pageBlockSection>
     </apex:pageBlock>
 </apex:page>

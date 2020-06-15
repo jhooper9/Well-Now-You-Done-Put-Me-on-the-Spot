@@ -5,6 +5,10 @@ public class getPackage {
     public Contact ct {get;set;}
     public Address__c addr {get;set;}
     
+    public getPackage(ApexPages.StandardController stdctr){
+        this.pkg = (Package__c) stdctr.getRecord();
+    }
+    
     public void find(){
     	
         List<Package__c> pkgs = new List<Package__c>();
