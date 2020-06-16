@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
-            <apexClass>AccountLookupController</apexClass>
+        <apexClass>AccountLookupController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -78,6 +78,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LightningSelfRegisterControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LookupTicketController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -393,6 +397,14 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>InMaintenance</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>LookupTicket</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>LookupTicketStart</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

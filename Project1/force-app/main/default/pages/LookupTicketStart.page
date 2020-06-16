@@ -1,0 +1,11 @@
+<apex:page docType="html-5.0" standardController="Case" extensions="LookupTicketController" lightningStylesheets="true">
+    <apex:pageBlock >
+        <apex:form >
+            <apex:pageBlockSection >
+                Want to check in on a support ticket? Search for it here!
+            </apex:pageBlockSection>
+                <apex:input value="{!caseId}" label="Support Ticket Number"/>
+                <apex:commandButton action="{!find}" value="Search"/>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

@@ -23,9 +23,9 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>dameniq12@wise-fox-ckppsi.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>dameniq12@wise-fox-ckppsi.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>jonathan.stew.hooper@wise-wolf-im0ta5.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>jonathan.stew.hooper@wise-wolf-im0ta5.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>forcefulforcedelivery-developer-edition</subdomain>
+    <subdomain>forcefuldelivery-developer-edition</subdomain>
     <urlPathPrefix>deliveryforce</urlPathPrefix>
 </CustomSite>

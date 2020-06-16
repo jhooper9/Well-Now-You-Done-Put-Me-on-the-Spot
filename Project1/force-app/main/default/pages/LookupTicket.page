@@ -1,0 +1,24 @@
+<apex:page docType="html-5.0" standardController="Case" extensions="LookupTicketController" lightningStylesheets="true">
+    <apex:pageBlock >
+        <apex:form >
+            
+            <apex:pageBlockSection >
+                <apex:input value="{!caseId}" label="Not the one you were looking for?"
+                            title="Enter the number you recieved when submitting your support ticket here"/>
+                <apex:commandButton action="{!find}" value="Search"/>
+                <apex:inputTextarea value="{!commentToAdd}" label="Comments?"/>
+                <apex:commandButton action="{!addComment}" value="Comment"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >
+                <apex:outputField value="{!ticket.Subject}"/>
+                <apex:outputField value="{!ticket.TrackingID__c}"/>
+                <apex:outputField value="{!ticket.Status}"/>
+                <apex:outputField value="{!ticket.CreatedDate}"/>
+                <apex:outputField value="{!ticket.ClosedDate}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >            
+                <apex:outputField id="outPutTextBox" value="{!ticket.Description}"/>
+            </apex:pageBlockSection>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>
