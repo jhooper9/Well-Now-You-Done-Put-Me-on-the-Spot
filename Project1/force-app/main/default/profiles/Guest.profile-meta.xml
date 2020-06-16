@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
-        <apexClass>AccountLookupController</apexClass>
+            <apexClass>AccountLookupController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ChangePasswordController</apexClass>
+            <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -367,7 +367,7 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>FindAccountInformation</apexPage>
+            <apexPage>FindAccountInformation</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -392,6 +392,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>PackageDelivery</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ServicePageImage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

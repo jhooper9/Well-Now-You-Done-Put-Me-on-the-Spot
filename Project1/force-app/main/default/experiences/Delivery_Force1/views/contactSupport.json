@@ -1,39 +1,42 @@
 {
   "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
-  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
   "id" : "d4540114-e866-4023-b1ef-359c2351a13a",
   "label" : "Contact Support",
   "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong style=\"color: #000;\">Services</strong></h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "344695d5-e89f-4823-830a-19cefd0640c6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : 201,
+        "pageName" : "ServicePageImage",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "5268cf18-3754-49bc-8353-4c30b97fea65",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "482e29ac-a5b8-498e-b021-632dc47ac473",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "allowAttachments" : true,
-        "attachmentLabel" : "Upload File",
-        "buttonAlignment" : "center",
-        "buttonBgColor" : "",
-        "buttonBgHoverColor" : "",
-        "buttonBorderColor" : "",
-        "buttonMaxWidth" : "",
-        "buttonRadius" : 0,
-        "buttonTextColor" : "",
-        "buttonTextHoverColor" : "",
-        "callToAction" : false,
-        "callToActionButtonText" : "",
-        "callToActionText" : "",
-        "callToActionUrl" : "",
-        "confirmationSubtext" : "We’ll get back to you soon.",
-        "confirmationText" : "Your case was created.",
-        "guestQuickActionName" : "GuestCommunityCase",
-        "headerSubtitle" : "Tell us how we can help.",
-        "headerTitle" : "Contact Customer Support",
-        "quickActionName" : "NewCommunityCase",
-        "requestSummaryText" : "Case summary"
+        "height" : 300,
+        "pageName" : "CreateTicket",
+        "recordId" : "{!recordId}"
       },
-      "componentName" : "forceCommunity:contactSupportForm",
-      "id" : "e3928bcb-d65b-4ba4-8ca5-8836f11a670b",
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "d8ba260b-d1ba-4a81-85e0-de53636ff79a",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -42,27 +45,6 @@
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "askConfirmationQuestion" : true,
-        "confirmationMessageLabel" : "Got it!",
-        "deflectionSubtitle" : "Find what you need here.",
-        "deflectionTitle" : "Need Answers Fast?",
-        "firstQuestion" : "Did this content solve your issue?",
-        "maxResults" : 6,
-        "measureDeflection" : true,
-        "redirectUrl" : "",
-        "secondQuestion" : "Stop creating your case?",
-        "showArticles" : true,
-        "showDiscussions" : false,
-        "topicId" : ""
-      },
-      "componentName" : "forceCommunity:caseDeflection",
-      "id" : "a1de1511-d672-48a2-94e4-13bf52c63dbf",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "60223c7f-de20-48fe-8d94-a06c05dbbf05",
     "regionName" : "sidebar",
     "type" : "region"
@@ -84,6 +66,44 @@
     } ],
     "id" : "e7b8a7bf-dcbd-4921-8bfd-87df2db1eadc",
     "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "confirmationMessage" : "Got it!",
+        "followUpPromptLabel" : "Can we close your question?",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "label" : "Ask a Question",
+        "maxSuggestions" : 5,
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : false,
+        "showTopics" : true,
+        "uneditableTopics" : false
+      },
+      "componentName" : "forceCommunity:askCommunity",
+      "id" : "0fb02cf5-e8ef-471e-b996-1042891b9e00",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5f149e66-aacb-413f-b26c-50e4f34d0f50",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "id" : "693cb607-00c5-420f-bdcb-74397488e352",
+    "regionName" : "sidebarAlt",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",

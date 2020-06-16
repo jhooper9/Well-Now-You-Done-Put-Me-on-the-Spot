@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "4beaebcd-3f92-4300-8bed-96df507c6503",
+  "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
+  "id" : "d017347c-69a9-4982-9e16-4367e481d518",
+  "label" : "Shipping",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-shipping",
+  "type" : "route",
+  "urlPrefix" : "shipping"
+}

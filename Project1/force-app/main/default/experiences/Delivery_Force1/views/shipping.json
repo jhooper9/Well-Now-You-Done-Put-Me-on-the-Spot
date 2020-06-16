@@ -1,0 +1,218 @@
+{
+  "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "4beaebcd-3f92-4300-8bed-96df507c6503",
+  "label" : "Shipping",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "712d29a1-3cbd-4c45-83a7-e6bf97374ffe",
+          "columns" : [ {
+            "UUID" : "137c10c2-7617-444e-a63f-83d2fd30b790",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 69
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "712d29a1-3cbd-4c45-83a7-e6bf97374ffe",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: #000;\">Shipping</strong></h1>\n<p><strong style=\"color: #000;\">Take care of all your shipping needs</strong></p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "0613ddb5-bd2e-405f-870c-232cd97ca47d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "137c10c2-7617-444e-a63f-83d2fd30b790",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "56552a94-5df6-4a27-a7df-785a8d728e34",
+          "columns" : [ {
+            "UUID" : "bdced92e-c4eb-4ad4-a0ac-87952c3e31da",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d95deec6-c2ef-4345-9f06-a3f8ebac96d5",
+            "columnName" : "Column 2",
+            "columnKey" : "e10ec",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 58
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "56552a94-5df6-4a27-a7df-785a8d728e34",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: #000;\">Existing Shipments</strong></h1>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "1e48b434-09f5-45a8-a424-859c0f154b6c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bdced92e-c4eb-4ad4-a0ac-87952c3e31da",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: #000;\">Need Help?</strong></h1>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "4cc12d52-e13d-4ad1-8127-c41f7013e98d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d95deec6-c2ef-4345-9f06-a3f8ebac96d5",
+        "regionLabel" : "Column 2",
+        "regionName" : "e10ec",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a840fd34-f69c-40d2-8177-938cfa16607d",
+          "columns" : [ {
+            "UUID" : "b0049e07-e51e-43d2-afc0-4779916d47d9",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7aeeec0c-442b-4a11-9cb9-ef5950450bf8",
+            "columnName" : "Column 2",
+            "columnKey" : "f9d3d",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a840fd34-f69c-40d2-8177-938cfa16607d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "height" : 300,
+            "pageName" : "PackageDelivery",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:visualforcePage",
+          "id" : "0c6bbdc0-f1fe-425c-84e3-fe19f15f39cd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b0049e07-e51e-43d2-afc0-4779916d47d9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "askCommunityLabel" : "Ask a Question",
+            "buttonBgColor" : "",
+            "buttonBgHoverColor" : "",
+            "buttonBorderColor" : "",
+            "buttonRadius" : 0,
+            "buttonTextColor" : "",
+            "buttonTextHoverColor" : "",
+            "buttonTwoBgColor" : "",
+            "buttonTwoBgHoverColor" : "",
+            "buttonTwoBorderColor" : "",
+            "buttonTwoRadius" : 0,
+            "buttonTwoTextColor" : "",
+            "buttonTwoTextHoverColor" : "",
+            "confirmationMessage" : "Got it!",
+            "contactSupportLabel" : "Contact Support",
+            "followUpPromptLabel" : "Can we close your question?",
+            "headerLabel" : "Don't see what you're looking for?",
+            "isAskFollowPromptEnabled" : true,
+            "isIncludeArticlesEnabled" : false,
+            "isIncludeDiscussionsEnabled" : true,
+            "isInitialSatisfactionPromptEnabled" : true,
+            "isPublisherDeflectionEnabled" : true,
+            "maxSuggestions" : 5,
+            "satisfactionPromptLabel" : "Did we help to answer your question?",
+            "showDetails" : false,
+            "showTopics" : true
+          },
+          "componentName" : "siteforce:napiliFooter",
+          "id" : "5a8b7aae-22a7-4123-86af-075094eae8c6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7aeeec0c-442b-4a11-9cb9-ef5950450bf8",
+        "regionLabel" : "Column 2",
+        "regionName" : "f9d3d",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73d09133-29e8-4542-ae40-4f766888e963",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Shipping"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b9e21be3-b3b3-4e5b-a6ff-454a5e866da9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d65c7c06-69bd-489c-a7be-279638e34eb6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-shipping"
+}

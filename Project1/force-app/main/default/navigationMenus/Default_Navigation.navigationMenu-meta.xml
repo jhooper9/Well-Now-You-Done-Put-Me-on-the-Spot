@@ -21,7 +21,7 @@
         <label>My Account</label>
         <position>3</position>
         <publiclyAvailable>false</publiclyAvailable>
-        <target>/comm-my-account</target>
+        <target>/your-account</target>
         <type>InternalLink</type>
     </navigationMenuItem>
 </NavigationMenu>

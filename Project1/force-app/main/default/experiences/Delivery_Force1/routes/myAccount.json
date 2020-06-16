@@ -3,8 +3,8 @@
   "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
   "id" : "602ac025-3116-4189-a6a1-a1dfc8724b8a",
   "label" : "My Account",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "my-account",
   "type" : "route",
-  "urlPrefix" : "comm-my-account"
+  "urlPrefix" : "your-account"
 }
