@@ -4,7 +4,7 @@
             <apex:pageBlockSection >
                 Want to check in on a support ticket? Search for it here!
             </apex:pageBlockSection>
-                <apex:input value="{!caseId}" label="Support Ticket Number"/>
+                <apex:input value="{!caseSearch}" label="Support Ticket Number"/>
                 <apex:commandButton action="{!find}" value="Search"/>
         </apex:form>
     </apex:pageBlock>
