@@ -1,0 +1,5 @@
+<apex:page showHeader="false">
+    <div style = "width: 40%;">
+        <apex:image url="{!$Resource.ShippingPageImage}"  width="500 px" height="200 px"/>
+    </div>
+</apex:page>

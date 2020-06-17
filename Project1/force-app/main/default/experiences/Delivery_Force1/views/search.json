@@ -14,9 +14,6 @@
           "name" : "FeedPost",
           "isPublic" : true
         }, {
-          "name" : "KnowledgeArticleVersion",
-          "isPublic" : true
-        }, {
           "name" : "Case",
           "isPublic" : false
         }, {

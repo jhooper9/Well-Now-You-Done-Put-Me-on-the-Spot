@@ -14,12 +14,51 @@
         "backgroundOverlay" : "rgba(0,0,0,0.5)",
         "contentAreaWidth" : 100,
         "sectionConfig" : {
+          "UUID" : "7f3af164-ce7a-4dd2-9c79-9aaef73e9801",
+          "columns" : [ {
+            "UUID" : "fe5cceb0-78ab-4d15-ba96-71315ebb0218",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7f3af164-ce7a-4dd2-9c79-9aaef73e9801",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><strong style=\"color: #000;\">Your Account</strong></h1>\n<p><strong style=\"color: #000;\">Please Enter Your Account Name in the Search Bar Below.</strong></p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "7abd56ff-1740-40e4-b1e1-59e4fb082ae1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fe5cceb0-78ab-4d15-ba96-71315ebb0218",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
           "UUID" : "1cc4793a-282f-4047-83bc-ce6f6f1fe19a",
           "columns" : [ {
             "UUID" : "6325630f-3151-4f3e-9806-8ab19d7d65d9",
             "columnName" : "column 1",
             "columnKey" : "col1",
-            "columnWidth" : "12",
+            "columnWidth" : "9",
             "seedComponents" : [ {
               "fqn" : "forceCommunity:recordHeadline",
               "attributes" : {
@@ -33,6 +72,12 @@
                 "sfdc:identifier" : "forceCommunity_recordHomeTabs"
               }
             } ]
+          }, {
+            "UUID" : "62014693-9bf8-4d60-ba02-6021352dfffd",
+            "columnName" : "Column 2",
+            "columnKey" : "c2ed3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
           } ]
         },
         "sectionHeight" : 32
@@ -40,9 +85,62 @@
       "componentName" : "forceCommunity:section",
       "id" : "1cc4793a-282f-4047-83bc-ce6f6f1fe19a",
       "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "height" : 300,
+            "pageName" : "FindAccountInformation",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:visualforcePage",
+          "id" : "da4668a8-b319-4b41-975a-eacad11bb3e1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
         "id" : "6325630f-3151-4f3e-9806-8ab19d7d65d9",
         "regionLabel" : "column 1",
         "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "askCommunityLabel" : "Ask a Question",
+            "buttonBgColor" : "",
+            "buttonBgHoverColor" : "",
+            "buttonBorderColor" : "",
+            "buttonRadius" : 0,
+            "buttonTextColor" : "",
+            "buttonTextHoverColor" : "",
+            "buttonTwoBgColor" : "",
+            "buttonTwoBgHoverColor" : "",
+            "buttonTwoBorderColor" : "",
+            "buttonTwoRadius" : 0,
+            "buttonTwoTextColor" : "",
+            "buttonTwoTextHoverColor" : "",
+            "confirmationMessage" : "Got it!",
+            "contactSupportLabel" : "Contact Support",
+            "followUpPromptLabel" : "Can we close your question?",
+            "headerLabel" : "Don't see what you're looking for?",
+            "isAskFollowPromptEnabled" : true,
+            "isIncludeArticlesEnabled" : false,
+            "isIncludeDiscussionsEnabled" : true,
+            "isInitialSatisfactionPromptEnabled" : true,
+            "isPublisherDeflectionEnabled" : true,
+            "maxSuggestions" : 5,
+            "satisfactionPromptLabel" : "Did we help to answer your question?",
+            "showDetails" : false,
+            "showTopics" : true
+          },
+          "componentName" : "siteforce:napiliFooter",
+          "id" : "6f85ab2d-a879-479f-b70d-eb917dd617b3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "62014693-9bf8-4d60-ba02-6021352dfffd",
+        "regionLabel" : "Column 2",
+        "regionName" : "c2ed3",
         "renditionMap" : { },
         "type" : "region"
       } ],

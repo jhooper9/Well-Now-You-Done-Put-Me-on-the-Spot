@@ -5,6 +5,9 @@
     <label>Delivery Force Navigation</label>
     <navigationMenuItem>
         <label>Your Account</label>
+        <menuItemBranding>
+            <tileImage>markuswinklerq3QPw37J6Xsunsplash</tileImage>
+        </menuItemBranding>
         <position>1</position>
         <publiclyAvailable>false</publiclyAvailable>
         <target>/your-account</target>
@@ -12,6 +15,9 @@
     </navigationMenuItem>
     <navigationMenuItem>
         <label>Tracking</label>
+        <menuItemBranding>
+            <tileImage>ihordvoretskyihyACqT60QCYunsplash</tileImage>
+        </menuItemBranding>
         <position>2</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/tracking-page</target>
@@ -19,9 +25,22 @@
     </navigationMenuItem>
     <navigationMenuItem>
         <label>Shipping</label>
+        <menuItemBranding>
+            <tileImage>letterbin12559961599x1070</tileImage>
+        </menuItemBranding>
         <position>3</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/shipping</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Customer Service</label>
+        <menuItemBranding>
+            <tileImage>proxyclickvisitormanagementsystemws</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/contactsupport</target>
         <type>InternalLink</type>
     </navigationMenuItem>
 </NavigationMenu>

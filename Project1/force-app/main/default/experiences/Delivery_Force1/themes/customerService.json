@@ -41,16 +41,7 @@
           "contineActionLabel" : "Ask the community",
           "continueLabel" : "Don’t see it?",
           "crossObjectTypeaheadApiNames" : [ {
-            "name" : "KnowledgeArticleVersion",
-            "isPublic" : true
-          }, {
             "name" : "FeedItem",
-            "isPublic" : true
-          }, {
-            "name" : "Case",
-            "isPublic" : false
-          }, {
-            "name" : "CollaborationGroup",
             "isPublic" : true
           } ],
           "disableCrossObjectRelevance" : false,
@@ -64,7 +55,7 @@
           "signInActionLabel" : "Sign in to ask the community"
         },
         "componentName" : "forceCommunity:searchBox",
-        "id" : "db174d15-4012-4b9a-9225-ee77b65a7eca",
+        "id" : "26ac47eb-c733-4870-b334-18c6f4e0bf47",
         "renditionMap" : { },
         "type" : "component"
       } ],

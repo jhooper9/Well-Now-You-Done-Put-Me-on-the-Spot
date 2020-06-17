@@ -2,5 +2,38 @@
   "defaultCode" : "en_US",
   "defaultLabel" : "English (US)",
   "id" : "ca7285b0-0e44-40e5-9879-cda327834002",
+  "languages" : [ {
+    "countryCode" : "CN",
+    "fallbackLanguageId" : null,
+    "id" : "c41ed841-189e-46d0-9705-c3d1d9404dbc",
+    "isActive" : true,
+    "label" : "Chinese (Simplified) (CN)",
+    "languageCode" : "zh",
+    "type" : "language"
+  }, {
+    "countryCode" : "",
+    "fallbackLanguageId" : null,
+    "id" : "20aa0f78-d0e0-406c-b581-bb962a5bfc6b",
+    "isActive" : true,
+    "label" : "French",
+    "languageCode" : "fr",
+    "type" : "language"
+  }, {
+    "countryCode" : "",
+    "fallbackLanguageId" : null,
+    "id" : "e23fa7f5-ddf6-48fb-9eb4-fbe4ca0956f2",
+    "isActive" : true,
+    "label" : "Japanese",
+    "languageCode" : "ja",
+    "type" : "language"
+  }, {
+    "countryCode" : "",
+    "fallbackLanguageId" : null,
+    "id" : "5bee8026-c6e0-4ced-91a6-5051b2a8a0ec",
+    "isActive" : true,
+    "label" : "Russian",
+    "languageCode" : "ru",
+    "type" : "language"
+  } ],
   "type" : "languageContainer"
 }

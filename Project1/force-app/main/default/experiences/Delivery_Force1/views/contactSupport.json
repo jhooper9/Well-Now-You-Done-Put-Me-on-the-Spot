@@ -15,12 +15,12 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "height" : 201,
+        "height" : 225,
         "pageName" : "ServicePageImage",
         "recordId" : "{!recordId}"
       },
       "componentName" : "forceCommunity:visualforcePage",
-      "id" : "5268cf18-3754-49bc-8353-4c30b97fea65",
+      "id" : "c684a086-94cd-4a46-a6e5-19ff0f06c5c1",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -30,6 +30,40 @@
     "type" : "region"
   }, {
     "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong>Need to Check Open Ticket?</strong> </h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "806cd137-cd3f-4683-8c9a-18ba2d0d14f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : 300,
+        "pageName" : "LookupTicketStart",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "81b2d82a-c784-4f51-a7ea-7e9aac50afa9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7a3cf21-14cf-4b26-b2eb-0a5a49757e84",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong>Submit New Ticket?</strong></h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "80a699e1-3635-48cc-bd5b-e7894b284c04",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
       "componentAttributes" : {
         "height" : 300,
         "pageName" : "CreateTicket",
@@ -41,10 +75,6 @@
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "d7a3cf21-14cf-4b26-b2eb-0a5a49757e84",
-    "regionName" : "content",
-    "type" : "region"
-  }, {
     "id" : "60223c7f-de20-48fe-8d94-a06c05dbbf05",
     "regionName" : "sidebar",
     "type" : "region"
@@ -55,7 +85,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "description" : "",
+        "description" : "Our Customer Service Commitment. The Delivery Force Store® is committed to providing world-class customer service to our retail customers. We are committed to providing personalized and professional solutions while supporting our core values. ",
         "metaTags" : "",
         "title" : "Contact Support"
       },
@@ -69,6 +99,15 @@
     "type" : "region"
   }, {
     "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><strong>Have a Question?</strong></h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e2b6e63a-2138-4e4d-9026-755d509c14f0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
       "componentAttributes" : {
         "buttonAlignment" : "center",
         "buttonBgColor" : "",

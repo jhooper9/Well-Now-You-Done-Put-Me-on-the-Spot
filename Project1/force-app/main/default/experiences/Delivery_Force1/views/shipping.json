@@ -54,13 +54,13 @@
             "UUID" : "bdced92e-c4eb-4ad4-a0ac-87952c3e31da",
             "columnName" : "Column 1",
             "columnKey" : "1",
-            "columnWidth" : "6",
+            "columnWidth" : "9",
             "seedComponents" : [ ]
           }, {
             "UUID" : "d95deec6-c2ef-4345-9f06-a3f8ebac96d5",
             "columnName" : "Column 2",
             "columnKey" : "e10ec",
-            "columnWidth" : "6",
+            "columnWidth" : "3",
             "seedComponents" : [ ]
           } ]
         },
@@ -115,13 +115,13 @@
             "UUID" : "b0049e07-e51e-43d2-afc0-4779916d47d9",
             "columnName" : "Column 1",
             "columnKey" : "1",
-            "columnWidth" : "6",
+            "columnWidth" : "9",
             "seedComponents" : [ ]
           }, {
             "UUID" : "7aeeec0c-442b-4a11-9cb9-ef5950450bf8",
             "columnName" : "Column 2",
             "columnKey" : "f9d3d",
-            "columnWidth" : "6",
+            "columnWidth" : "3",
             "seedComponents" : [ ]
           } ]
         },
@@ -199,7 +199,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "description" : "",
+        "description" : "Shipping services to meet all your needs. Ship Now. Our global integrated network at your fingertips—literally. Whether you ship packages to Poughkeepsie or pallets to Paris, we can get them to their destinations at a time and price that works for your business.",
         "metaTags" : "",
         "title" : "Shipping"
       },

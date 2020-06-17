@@ -1,5 +1,5 @@
 <apex:page showHeader="false">
-    <div style = " width: 50%">
-        <apex:image url="{!$Resource.ServicePageImage}" width="1000" height="200 px" style="align-content: center;"/>
+    <div style = " width: 40%;">
+        <apex:image url="{!$Resource.ServicePageImage}" width="1000" height="200 px"/>
     </div>
 </apex:page>

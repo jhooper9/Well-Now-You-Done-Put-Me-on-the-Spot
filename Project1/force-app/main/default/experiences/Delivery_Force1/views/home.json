@@ -6,7 +6,7 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerText" : "",
         "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "pageType" : "",
@@ -15,7 +15,7 @@
         "uniqueNameOrId" : ""
       },
       "componentName" : "forceCommunity:headline",
-      "id" : "33474fac-5d4c-4ec6-a67e-2e641503ad4d",
+      "id" : "98021e1d-af7c-47a6-8e4e-b73f386cb14c",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -65,14 +65,11 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "cacheAge" : 1440,
-        "filterName" : "",
-        "reportId" : "00O3h00000295O7",
-        "showRefreshButton" : true,
-        "showTitle" : true
+        "height" : 485,
+        "recordId" : "01Z3h000000HhWEEA0"
       },
-      "componentName" : "forceCommunity:reportChart",
-      "id" : "85530a67-2d1d-4e94-96b3-bce453ae3876",
+      "componentName" : "forceCommunity:dashboard",
+      "id" : "a4fc6347-ba7d-4eb1-90ed-aa0e1e613581",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -117,23 +114,6 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "display" : "LEVELS_POINTS",
-        "excludeInternalUsers" : false,
-        "knowledgeLabel" : "Knows about",
-        "numberOfUsers" : 5,
-        "showContextUser" : false,
-        "showTooltip" : false,
-        "showUserRank" : false,
-        "title" : "Leaderboard",
-        "tooltipText" : "Earn points and climb to new levels when you contribute in the community!"
-      },
-      "componentName" : "forceCommunity:reputationLeaderboard42",
-      "id" : "3ba84522-757b-46b4-9fd0-004cc2915641",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
         "numberOfTopics" : 5,
         "showTopicsMetric" : true,
         "title" : "Trending Topics"
@@ -148,14 +128,35 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "showHoverIcon" : true,
+        "tileMenuEditor" : "Delivery_Force_Navigation"
+      },
+      "componentName" : "forceCommunity:tileMenu",
+      "id" : "81f6a43e-3612-4578-8819-8d3c95bc6fa8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "label" : "Preferred Language",
+        "pickerAlignment" : "left"
+      },
+      "componentName" : "forceCommunity:languageSelector43",
+      "id" : "3be747fd-4021-486c-ad63-e51c049ce1f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "32f0e94b-fa01-4699-84b6-4f58516d48e5",
     "regionName" : "footer",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "description" : "",
-        "metaTags" : "",
+        "description" : "The Delivery Force Store, is one of the world's largest franchiser of retail shipping and business service centers, has been ranked as one of the top franchise brands, according to Entrepreneur Magazine's 2020 Franchise 500. ",
+        "metaTags" : "<meta name = \"Shipping\">\n<meta name = \"Tracking\">\n<meta name = \"Packages\">\n<meta name = \"Home\">",
         "title" : "Home"
       },
       "componentName" : "forceCommunity:seoAssistant",

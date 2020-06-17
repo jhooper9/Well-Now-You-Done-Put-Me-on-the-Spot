@@ -3,7 +3,7 @@
   "appPageId" : "3b35707b-9e0e-4166-8900-3fa98c5499d0",
   "id" : "d017347c-69a9-4982-9e16-4367e481d518",
   "label" : "Shipping",
-  "pageAccess" : "UseParent",
+  "pageAccess" : "RequiresLogin",
   "routeType" : "custom-shipping",
   "type" : "route",
   "urlPrefix" : "shipping"

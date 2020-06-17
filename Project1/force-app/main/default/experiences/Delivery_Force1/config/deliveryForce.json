@@ -1,6 +1,6 @@
 {
   "forgotPasswordRouteId" : "8350144b-4384-4e12-a6ae-8cf87ba001ef",
-  "isAvailableToGuests" : true,
+  "isAvailableToGuests" : false,
   "isFilteredComponentsView" : false,
   "isProgressiveRenderingEnabled" : false,
   "loginAppPageId" : "51bd672f-e471-4baf-9a10-28ca0d57a66e",

@@ -5,6 +5,7 @@
     <columns>Package_value__c</columns>
     <columns>Insurance__c</columns>
     <columns>Status__c</columns>
+    <columns>RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
